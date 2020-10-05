@@ -41,7 +41,7 @@
       // document.getElementById("result").value = a_w_num + a_w_db_num + db_true_num; 
 
       //document.getElementById("result").value = document.getElementById("vm_count").value; 
-      document.getElementById("total_price").value = 15; 
+      document.getElementById("total_price").value = document.getElementById("weight").value * 5; 
     }
 
     function calc_distance(source, destination){
@@ -178,7 +178,7 @@
                   </div>
                 <div class="form-group">
                   <div class="input-group input-group-merge input-group-alternative">
-                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                    <input type="text" class="form-control" id="weight" aria-label="Dollar amount (with dot and two decimal places)">
                     <div class="input-group-append">
                       <span class="input-group-text">KG</span>
                     </div>
